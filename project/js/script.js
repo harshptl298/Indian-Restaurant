@@ -15,7 +15,7 @@ $(function(){
 	var dc ={};
 	var homeHtml= "snippets/home.html";
 
-	var insertHtml = function(selector,hmtl){
+	var insertHtml = function(selector,html){
 	var targetElem= document.querySelector(selector);
 	targetElem.innerHTML = html;
 
@@ -23,11 +23,11 @@ $(function(){
 
 var showLoading = function (selector){
  var html = "<div class='text-center'>";
- html += "<img src=images/ ajax-loader.gif'></div>";
+ html += "<img src='images/ajax-loader.gif'></div>";
  insertHtml(selector,html);
 };
 
-document.addEventListener("DOMContentLoaded", funtion (event) {
+document.addEventListener("DOMContentLoaded", function (event) {
 	showLoading("#main-content");
 	$ajaxUtils.sendGetRequest(
 		homeHtml,
