@@ -48,7 +48,6 @@ border: 0;
 	margin-top: 10px;
 	padding-right: 0px;
 	background-color: #f54e4e;
-	;
 }
 #nav-list a{
 	color: #0c0c0c;
@@ -63,8 +62,6 @@ border: 0;
 }
 #phone {
 	margin-top: 5px;
-
-	
 }
 #phone a{/* Phone number */
 	text-align: right;
@@ -74,8 +71,6 @@ border: 0;
 	color: #0c0c0c;
 	text-align: right;
 	font-style: italic;
-	 
-
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -98,7 +93,7 @@ border: 0;
 	border-top: 0;
 	color: #fffdfd;
 }
-.pannel-footer div.row{
+.panel-footer div.row{
 	margin-bottom: 35px; 
 }
 #hours, #address{
@@ -128,12 +123,11 @@ border: 0;
 }
 #menu-tile, #specials-tile,#map-tile{
 	height: 250px;
-	width: 100%
-	margin-bottom :15px;
+	width: 100%;
+	margin-bottom: 15px;
 	position: relative;
 	border: 2px solid black;
 	overflow: hidden;
-
 }
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover{
 	box-shadow: 0 1px 5px 1px #cccccc;
